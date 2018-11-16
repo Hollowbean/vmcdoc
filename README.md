@@ -4,8 +4,9 @@ This repository contains unofficial documentation for VMware Cloud.
 
 ## Content
 * Drawings
-  * [VMwareCloud.vssx](./drawings/VMwareCloud.vssx) - sample visio stencil
+  * [VMwareCloud visio stencil](./drawings/VMwareCloud.vssx)
  
 * Presentations
+  * [VMware Cloud On AWS - On-Boarding](./presentations/onBoardingToVMConAWS.pptx)
 
 * Documents
