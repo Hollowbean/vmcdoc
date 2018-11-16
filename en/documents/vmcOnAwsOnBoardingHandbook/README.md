@@ -1,1 +1,7 @@
+# VMware Cloud on AWS On-Boarding Handbook
+
 The VMware Cloud on AWS On-Boarding Handbook is intended to act as an initial primer to the [VMware Cloud on AWS](https://vmc.vmware.com) service.  It seeks to provide the reader with enough information to successfully plan and deploy their first Software Defined Data Center (SDDC).
+
+### Table of Contents
+1. [Basic Concepts](./01_basicConcepts.md)
+2. [Compute and Storage](./02_computeAndStorage.md)
