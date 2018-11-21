@@ -1,3 +1,5 @@
+# Basic Concepts
+
 ### Amazon Web Services Account
 
 A major benefit of the service is its ability to provide direct access to AWS services. As such, it is required that all customers maintain a dedicated AWS account which will be used to access and manage these services.  If you are unsure of how to create an AWS account, then please refer to the [AWS Documentation](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/) for more information on the process.
@@ -83,3 +85,5 @@ Once a connection is established to the AWS account, it then becomes possible to
 * It is recommended to use a dedicated Subnet for cross-linking. The purpose of this is to ensure that IP addresses within the Subnet are not consumed by other services (e.g. other EC2 instances) thus preventing ENIs for new hosts from being added as the SDDC grows. Secondary to that, using a dedicated Subnet helps prevent the situation where an AWS admin accidentally deletes or otherwise modifies the ENIs used for cross-linking.
 * It is possible to cross-link multiple SDDCs to the same AWS account. If you plan to do this, then it is vital to ensure that you do not create IP addressing conflicts by using overlapping IP address ranges between the SDDCs. This is particularly relevant if you plan to cross-link multiple SDDCs to the same VPC.
 
+
+#### [Top](./README.md) | [Next -> Compute and Storage](./02_computeAndStorage.md)
