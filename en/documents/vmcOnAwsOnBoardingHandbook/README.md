@@ -12,3 +12,5 @@ A Powerpoint [presentation](https://github.com/dspinhirne/vmcdoc/blob/master/en/
 4. [SDDC Interconnectivity](./04_sddcInterconnectivity.md)
 5. [Workload On-Boarding](./05_workloadOnBoarding.md)
 6. [Disaster Recovery](./06_disasterRecovery.md)
+7. [Logging and Monitoring](./07_loggingAndMonitoring.md)
+8. [Preparing to On-Board](./08_prepToOnBoard.md)

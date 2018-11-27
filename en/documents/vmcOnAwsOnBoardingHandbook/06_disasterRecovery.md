@@ -5,7 +5,7 @@ The term "disaster recovery" is somewhat generic, and may mean different things 
 ### Disaster Recovery Services
 Currently, VMware offers two services for configuring an SDDC as a DR site: Site Recovery and HCX.
 
-[Site Recovery](https://www.vmware.com/products/site-recovery-manager.html) is a specialized tool which has been designed specifically for disaster recovery. It provides workload replication (via vSphere Replication) between sites and offers support for advanced recovery plans. Site Recovery is offered as a service within VMware Cloud, and cloud-side deployment is as simple as activating the service within an SDDC.
+[Site Recovery](https://cloud.vmware.com/vmware-site-recovery) is a specialized tool which has been designed specifically for disaster recovery. It provides workload replication (via vSphere Replication) between sites and offers support for advanced recovery plans. Site Recovery is offered as a service within VMware Cloud, and cloud-side deployment is as simple as activating the service within an SDDC.
 
 [HCX](https://hcx.vmware.com) is a tool which has been designed specifically for workload migration between sites. It provides workload replication (via vSphere Replication) between sites and also provides WAN optimization for replication traffic and layer-2 network extension. While not designed specifically as a disaster recovery tool, HCX does provide a basic disaster recovery service. However, HCX does not currently support the advanced recovery plans as are available with Site Recovery.
 
@@ -30,4 +30,4 @@ Disaster recovery in VMware Cloud on AWS may be accomplished using either the HC
 
 
     
-#### [Top](./README.md) | [Back <- Workload On-Boarding](./05_workloadOnBoarding.md)
+#### [Top](./README.md) | [Back <- Workload On-Boarding](./05_workloadOnBoarding.md) | [Next -> Logging and Monitoring](./07_loggingAndMonitoring.md)
