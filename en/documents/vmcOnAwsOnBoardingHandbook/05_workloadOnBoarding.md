@@ -42,4 +42,4 @@ The high-level process for an HCX migration is as follows:
 
 
 
-#### [Top](./README.md) | [Back <- SDDC Interconnectivity](./04_sddcInterconnectivity.md)
+#### [Top](./README.md) | [Back <- SDDC Interconnectivity](./04_sddcInterconnectivity.md) | [Next -> Disaster Recovery](./06_disasterRecovery.md)

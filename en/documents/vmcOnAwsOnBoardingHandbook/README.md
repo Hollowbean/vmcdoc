@@ -11,3 +11,4 @@ A Powerpoint [presentation](https://github.com/dspinhirne/vmcdoc/blob/master/en/
 3. [SDDC Networking](./03_sddcNetworking.md)
 4. [SDDC Interconnectivity](./04_sddcInterconnectivity.md)
 5. [Workload On-Boarding](./05_workloadOnBoarding.md)
+6. [Disaster Recovery](./06_disasterRecovery.md)
