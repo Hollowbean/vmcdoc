@@ -47,4 +47,6 @@ DNS forwarding and caching services are provided to the SDDC via NSX. These serv
 NSX provides basic DHCP services to the Compute Network of the SDDC, and these services are enabled on per-segment basis at the time of its creation. DHCP within the SDDC is fairly vanilla; users are currently limited to providing a range for DHCP leases and a DNS suffix for the segment. As part of the DHCP lease, clients will be provided the DNS service IP for the Compute Network as their DNS server.
 
 
-#### [Top](./README.md) | [Back <- Compute and Storage](./02_computeAndStorage.md) | [Next -> SDDC Interconnectivity](./04_sddcInterconnectivity.md)
+
+---
+[Top](./README.md) | [Back <- Compute and Storage](./02_computeAndStorage.md) | [Next -> SDDC Interconnectivity](./04_sddcInterconnectivity.md)

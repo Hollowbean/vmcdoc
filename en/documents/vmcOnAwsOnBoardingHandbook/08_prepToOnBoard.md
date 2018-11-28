@@ -85,4 +85,5 @@ By default, the gateway firewalls of the SDDC are configured to deny all traffic
 
 
 
-#### [Top](./README.md) | [Back <- Logging and Monitoring](./07_loggingAndMonitoring.md)
+---
+[Top](./README.md) | [Back <- Logging and Monitoring](./07_loggingAndMonitoring.md)

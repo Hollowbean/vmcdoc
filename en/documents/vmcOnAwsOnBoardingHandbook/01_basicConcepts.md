@@ -86,4 +86,6 @@ Once a connection is established to the AWS account, it then becomes possible to
 * It is possible to cross-link multiple SDDCs to the same AWS account. If you plan to do this, then it is vital to ensure that you do not create IP addressing conflicts by using overlapping IP address ranges between the SDDCs. This is particularly relevant if you plan to cross-link multiple SDDCs to the same VPC.
 
 
-#### [Top](./README.md) | [Next -> Compute and Storage](./02_computeAndStorage.md)
+
+---
+[Top](./README.md) | [Next -> Compute and Storage](./02_computeAndStorage.md)

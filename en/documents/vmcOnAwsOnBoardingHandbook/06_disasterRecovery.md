@@ -29,5 +29,6 @@ Disaster recovery in VMware Cloud on AWS may be accomplished using either the HC
     * How will users access the recovery site?
 
 
-    
-#### [Top](./README.md) | [Back <- Workload On-Boarding](./05_workloadOnBoarding.md) | [Next -> Logging and Monitoring](./07_loggingAndMonitoring.md)
+
+---
+[Top](./README.md) | [Back <- Workload On-Boarding](./05_workloadOnBoarding.md) | [Next -> Logging and Monitoring](./07_loggingAndMonitoring.md)

@@ -15,4 +15,6 @@ Search and Save Query     |
 The free tier offers users a means of searching visualizing audit logs (i.e. logs from the SDDC infrastructure) as well as a small amount of non-audit logs. When the service is initially activated, users will gain access to a 30-day free trial for the paid tier of the service. This paid tier offers features such as longer log retention, unlimited non-audit logging, long-term archival, alerting, log forwarding, and more. At the end of the 30-day trial, the service will drop down to the free tier unless users opt to continue with the paid tier.
 
 
-#### [Top](./README.md) | [Back <- Disaster Recovery](./06_disasterRecovery.md) | [Next -> Preparing to On-Board](./08_prepToOnBoard.md)
+
+---
+[Top](./README.md) | [Back <- Disaster Recovery](./06_disasterRecovery.md) | [Next -> Preparing to On-Board](./08_prepToOnBoard.md)

@@ -44,4 +44,6 @@ EDRS is configured on a per-SDDC basis, and comes in two flavors: optimized for 
 It should be noted that VMware will automatically add hosts to the SDDC when storage utilization crosses the 70% threshold, even when EDRS is disabled. This practice is a preventative measure designed to ensure that vSAN has a minimal amount of "slack" space available to it at all times.
 
 
-#### [Top](./README.md) | [Back <- Basic Concepts](./01_basicConcepts.md) | [Next -> SDDC Networking](./03_sddcNetworking.md)
+
+---
+[Top](./README.md) | [Back <- Basic Concepts](./01_basicConcepts.md) | [Next -> SDDC Networking](./03_sddcNetworking.md)

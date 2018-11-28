@@ -83,4 +83,5 @@ As seen in the diagram, the edge routers of the SDDC are in-path for Direct Conn
 
 
 
-#### [Top](./README.md) | [Back <- SDDC Networking](./03_sddcNetworking.md) | [Next -> Workload On-Boarding](./05_workloadOnBoarding.md)
+---
+[Top](./README.md) | [Back <- SDDC Networking](./03_sddcNetworking.md) | [Next -> Workload On-Boarding](./05_workloadOnBoarding.md)
