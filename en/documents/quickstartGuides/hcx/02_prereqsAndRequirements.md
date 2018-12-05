@@ -118,11 +118,9 @@ You should ensure that if you are running an add blocker in your browser that yo
 The on-premises HCX Manager may be downloaded from the cloud-side HCX manager once the service has been activated. To do so:
 
 1. Open the HCX Manager within the SDDC. This is done from the "Add Ons" tab of the SDDC in the VMC Console. Use the cloudadmin creditials of the SDDC to log into the Manager.
-<br>
 ![step01.png](./illustrations/activateHCX/step01.png "Step 1")
 
 2. Download the on-premises HCX Manager. A download link is availble from the HCX Manager. Be sure to note the FQDN of the cloud-side HCX Manager. This will be needed as part of the installation process for the on-premises HCX Manager.
-<br>
 ![step02.png](./illustrations/activateHCX/step02.png "Step 2")
 
 

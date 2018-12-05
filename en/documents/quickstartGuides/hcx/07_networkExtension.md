@@ -7,15 +7,12 @@ Network Extension can be performed on any port-group which is backed by a VDS to
 These steps are performed from the HCX Dashboard within vCenter.
 
 1. From the HCX Dashboard, click Extend Network from the "Interconnect" tab.
-<br>
 ![step01.png](./illustrations/extendNet/step01.png "Step 1")
 
 2. Select the network to extend, and provide the default gateway IP of that network along with the netmask (in CIDR format).
-<br>
 ![step02.png](./illustrations/extendNet/step02.png "Step 2")
 
 3. Upon completion, the network will show up under the list of extended networks. The duplicate network which was created within the SDDC will be visible as the "Destination Network".
-<br>
 ![step03.png](./illustrations/extendNet/step03.png "Step 3")
 
 

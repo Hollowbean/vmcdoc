@@ -16,19 +16,15 @@ The process for a network cutover is roughly as follows:
 Unstretching a network is performed from the HCX dashboard within vCenter.
 
 1. From the HCX Dashboard, click Extended Networks from the "Interconnect" tab.
-<br>
 ![step01.png](./illustrations/extendNet/step01.png "Step 1")
 
 2. Click on "unstretch" for the desired network.
-<br>
 ![step02.png](./illustrations/netCutover/step02.png "Step 2")
 
 3. Check the box to plumb the network into the routing infrastructure of the SDDC, and hit "Unstretch".
-<br>
 ![step03.png](./illustrations/netCutover/step03.png "Step 3")
 
 4. The status of the network will change to reflect the tear-down of the extension.
-<br>
 ![step04.png](./illustrations/netCutover/step04.png "Step 4")
 
 ---
