@@ -109,9 +109,10 @@ On-premises HCX will require access to the following network services:
 Installation of HCX within an SDDC is performed from the "Add Ons" tab in the SDDC view of the [VMC Console](https://vmc.vmware.com). Clicking on the "Deploy HCX" button for the specific SDDC will trigger the installation of the cloud-side HCX Manager within that SDDC. Activation keys are also generated from this interface. The activation key is required to activate the on-premises HCX Manager.
 
 You should ensure that if you are running an add blocker in your browser that you whitelist connect.hcx.vmware.com.
-
 ![activateHCX.png](./illustrations/activateHCX/activateHCX.png "Activate HCX")
 
+The HCX Manager within the SDDC is protected by the gateway firewall of the MGW. You must permit access by adding a rule within the [VMC Console](https://vmc.vmware.com).
+![permitAccess.png](./illustrations/activateHCX/permitAccess.png "Permit Access")
 
 
 ### Downloading the HCX Manager
