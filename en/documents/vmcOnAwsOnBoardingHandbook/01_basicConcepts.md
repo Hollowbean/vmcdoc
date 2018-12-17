@@ -27,9 +27,12 @@ An Org must be fully funded prior to activation of the service, and the funding 
 
 It is important that the Fund Owner have all required fields of their My VMware account profile fully populated and that they have adequate funds associated with that profile. This is a requirement in order to activate the service.  It is also important to note that the email address used for account activation is the one provided within the Fund Owner's My VMware profile. Therefore, it is very important that this email address be that of a recipient who is prepared to handle the activation email.
 
-![vmcOrg.png](./illustrations/vmcOrg.png "VMC Org")
+| ![vmcOrg.png](./illustrations/vmcOrg.png "VMC Org") |
+|:--:|
+| *Graphic 1* |
 
-Key points to remember:
+
+Key points to remember from __Graphic 1__ :
 * An Org is a top-level construct which owns one or more SDDCs
 * Users are associated with an Org and have one of two roles: Org Owner and Org User
 * Users exist within VMware Cloud Services console only, not within vCenter.
@@ -44,16 +47,18 @@ Please refer to the [User Guide](https://docs.vmware.com/en/VMware-Cloud-on-AWS/
 
 The Software Defined Data Center (SDDC) is a collection of bare-metal hosts which are installed with a standard set of VMware software. It is important to understand that each SDDC is running atop dedicated hardware and that billing for an SDDC is based upon the number of hosts dedicated to the SDDC and not the number of VMs running within the SDDC.
 
-Since VMware Cloud On AWS is a managed service, full admin-level access to the SDDC is not permitted. This restriction is in place to prevent customers from modifying the infrastructure of the SDDC itself.  Instead, customers are given a role which allows them to fully manage workloads which they have deployed within the SDDC. Normally, this permissions model does not impact day-to-day use of the service, however, it important to keep in mind if you are planning on integrating tools directly with infrastructure components such as vCenter. If the integration you are planning requires admin rights, then it may not function properly.
+Since VMware Cloud On AWS is a managed service, full admin-level access to the SDDC is not permitted. This restriction is in place to prevent customers from modifying the infrastructure of the SDDC itself.  Instead, customers are given a role which allows them to fully manage workloads which they have deployed within the SDDC. Normally, this permissions model does not impact day-to-day use of the service, however, it's important to keep in mind if you are planning on integrating tools directly with infrastructure components such as vCenter. If the integration you are planning requires admin rights, then it may not function properly. We recommend you review the 3rd party service's documentation for the requirements around full admin-level access to the SDDC.
+
+| ![sddc.png](./illustrations/sddc.png "SDDC") |
+|:--:|
+| *Graphic 2* |
 
 
-![sddc.png](./illustrations/sddc.png "SDDC")
-
-Key points to remember:
+Key points to remember regarding the SDDC and __Graphic 2__ :
 * Deployed upon dedicated, bare-metal hosts.
 * Deployed with standard components (ESXi, vCenter, NSX, vSAN).
 * Billing is based on the number of hosts within the SDDC, not on the number of VMs.
-* Users have the ability to manage their workloads, and have limited access to vCenter,vSAN, and NSX.
+* Users have the ability to manage their workloads and have limited access to vCenter,vSAN, and NSX.
 
 
 ### The Connection to AWS Services
@@ -65,10 +70,12 @@ Each SDDC is provided direct access to AWS services via a connection to a custom
 
 The term "connected" simply means that the customer has granted permissions for the VMware Cloud On AWS service to enable routing between an SDDC and a [VPC](https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html) within the customer-owned AWS account. These permissions are granted via [IAM](https://aws.amazon.com/iam/) roles which are created within the connected account using a [CloudFormation](https://aws.amazon.com/cloudformation/) template. It is important to note that the person who is performing the account connection process must have sufficient permissions (eg. admin rights) within the AWS account to execute this CloudFormation template.
 
+| ![sddcAwsServices.png](./illustrations/sddcAwsServices.png "Connecting to AWS Services") |
+|:--:|
+| *Graphic 3* |
 
-![sddcAwsServices.png](./illustrations/sddcAwsServices.png "Connecting to AWS Services")
 
-Key points to remember:
+Key points to remember from __Graphic 3__ :
 * AWS services are managed through a customer-owned AWS account.
 * Account linking enables VMware Cloud services to cross-link SDDCs into a customer-owned AWS account.
 * Account linking is performed when the user executes a CloudFormation template within their AWS account.
